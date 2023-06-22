@@ -14,9 +14,16 @@ module.exports = {
       fontFamily: {
         inter: "Inter",
       },
+      borderRadius: {
+        "67xl": "86px",
+        "3xs": "10px",
+      },
     },
     fontSize: {
+      base: "16px",
+      mini: "15px",
       sm: "14px",
+      "31xl": "50px",
     },
   },
   corePlugins: {

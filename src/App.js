@@ -5,6 +5,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import FrameComponent from "./pages/FrameComponent";
+import FrameComponent1 from "./pages/FrameComponent1";
 import { useEffect } from "react";
 
 function App() {
@@ -27,6 +28,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/frame-2":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -46,6 +51,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<FrameComponent />} />
+      <Route path="/frame-2" element={<FrameComponent1 />} />
     </Routes>
   );
 }
